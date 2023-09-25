@@ -18,3 +18,13 @@ Creating first flutter Project
                        Childs      appBar(header)
                                     body (body)
                                     bottomSheet()/bottomNavigationBar() (footar)
+
+   Day 03: Function,Classes ,Routes,Theme and Text 
+   
+                Step 9 : Theme apply karenge 
+
+                        Generally 3 types of theme - dark,light and System(jo device ke theme ke according apply ho)
+
+                Step 10 : Routes declare karenge ,multiple pages 
+
+                Step 11 : Text me font,style,color change karenge - HomePage(); me 
