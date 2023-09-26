@@ -37,8 +37,8 @@ class FlutterBootcamp extends StatelessWidget {
         ),
         // Step 10.1: routes denge alag alag pages(screen) ke liye
         routes: {
-          "/":(context)=>HomePage(),
-          "/login":(context)=>LoginPage(),
+          "/":(context)=>LoginPage(),
+          "/login":(context)=>HomePage(),
         },
         );
 
