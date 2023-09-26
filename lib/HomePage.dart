@@ -10,15 +10,24 @@ class HomePage extends StatelessWidget {
 
 
   return Scaffold(
-
+    appBar: AppBar(
+      title: Text("Flutter Bootcamp"),
+    ),
 
     body: Center(
 
     child: Container(
   // Step:6.2 using the variable DAY in the text field
-        child: Text("Welcome to FlutterBootcamp Day $days  "),
+      // Step: 11 text me extra chize add karenge
+        child: Text("Welcome to FlutterBootcamp Day $days  ",
+          style: const TextStyle(
+              fontSize: 20,
+          color: Colors.deepOrange,
+    ),
+    ),
   ),
   ),
+
   );
 }
 }
