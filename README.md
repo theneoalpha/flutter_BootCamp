@@ -42,7 +42,27 @@ Creating first flutter Project
                         Step 12.3 : Background color app ki white karenge
 
                         Step 12.4 : image ke niche text element denge
-                        Step 12.5 : 
+                        
+                Step 13: TextField add karenge username and password
 
 
-                
+                        Step 13.1 : TextField add karenge login page me
+                        Step 13.2: HintText aur label denge deoration element use karke
+                        Step 13.3 Same password ke liye textfield banayenge
+
+                Step 14 : Padding Add karenge
+
+                    Step 14.1: jise padding deni hai usko column ke andar children banayenge
+                                yaha textFormField ko padding deni hai.
+                            child: Column(
+                                    children: [
+                                            TextFormField( ),
+                                            TextFormField( ),
+                                              ]
+                                        ) //column
+                Step 14.2 : Column ko wrap karenge padding denge and padding property denge
+
+                Step 14.3 : password ko hide karenge password textField ka
+
+                Step 15 : Login Button Add karenge
+                    S
