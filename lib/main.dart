@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import './HomePage.dart';
 import './login_page.dart';
+import './utlis/routes.dart';
 // Step 2: we start with creating main method , main method is the entry point of flutter project.
 void main(){
   // step 3 : runApp method define karenge and argument denge app ka naam
@@ -36,9 +37,14 @@ class FlutterBootcamp extends StatelessWidget {
           primarySwatch: Colors.orange,
         ),
         // Step 10.1: routes denge alag alag pages(screen) ke liye
+        // routes: {
+        //   "/":(context)=>LoginPage(),
+        //   "/login":(context)=>HomePage(),
+        // },
         routes: {
-          "/":(context)=>LoginPage(),
-          "/login":(context)=>HomePage(),
+
+             MyRoutes.homeRoute:(context)=>HomePage(),
+          MyRoutes.loginRoute:(context)=>LoginPage()
         },
         );
 
