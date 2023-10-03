@@ -4,14 +4,15 @@ Creating first flutter Project
 
 ## Getting Started
 
-   Day 01: Going to  lib > "main.dart" file and created a simple UI.
+   Day 01: Going to  lib > "main.dart" file and created a simple UI
+
                 Step 1 ---> Step 5
 
    Day 02: Dart Language introduction
-                    Main.dart
-                Step 6 ---> 
-                    Multiple pages banayenge taaki main.dart file complex na ho jaye
-                step 7 ---> home_page.dart
+                    
+                Step 6 ---> Multiple pages banayenge taaki main.dart file complex na ho jaye
+                    
+                Step 7 ---> home_page.dart
                 
                 Step 8 Replacing "material" widget to "Scaffold" widget
    
@@ -52,17 +53,26 @@ Creating first flutter Project
 
                 Step 14 : Padding Add karenge
 
-                    Step 14.1: jise padding deni hai usko column ke andar children banayenge
+                        Step 14.1: jise padding deni hai usko column ke andar children banayenge
                                 yaha textFormField ko padding deni hai.
-                            child: Column(
-                                    children: [
+                                    child: Column(
+                                        children: [
                                             TextFormField( ),
                                             TextFormField( ),
                                               ]
                                         ) //column
-                Step 14.2 : Column ko wrap karenge padding denge and padding property denge
+                        Step 14.2: Column ko wrap karenge padding denge and padding property denge
 
-                Step 14.3 : password ko hide karenge password textField ka
+                        Step 14.3 : password ko hide karenge password textField ka
 
                 Step 15 : Login Button Add karenge
-                    S
+   Day 05: Fixing Pixel Overlaping issue in Column element and   elevated button customization
+   
+                Step 16 : SingleChildScrollView() ke andar wrap karenge login_page.dart ke element ko
+                            taaki column content pixel overlap na ho and scroll-up-down ho sake vertically
+                Step 17 : OnPressed to next page using routes.dart routes
+                
+                        Step 17.1: saare routes ko ek particular lib>utlis>routes.dart me daal denge
+                                taaki kahi bhi access kare to again and again object na banana pade
+                        Step 17.2: main.dart me routes.dart ke Routes ko access karenge
+                        Step 17.3: login_page.dart me apne routes ko use karenge OnPressed function me
