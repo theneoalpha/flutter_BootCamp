@@ -76,3 +76,28 @@ Creating first flutter Project
                                 taaki kahi bhi access kare to again and again object na banana pade
                         Step 17.2: main.dart me routes.dart ke Routes ko access karenge
                         Step 17.3: login_page.dart me apne routes ko use karenge OnPressed function me
+
+
+   Day 06 StateFull & Animated Container
+   
+                Step 18 : Converting loginPage class to stateFulWidget and username input ko welcome 
+                            ke baad laga sake and taaki without loading page ke 
+                           content ko change kare just like react useState()
+                        Step 18.1 converting statefullWidget login_page me
+                        Step 18.2 ek string define karenge 'name'
+                        Step 18.3 'name' string ko pass karenge WelCome text me
+                        Step 18.4 onChange username input  pe text change karenge 
+
+                Step 19 : Animated loginButton
+
+                        Step 19.1 : LoginPage se Elevated button ko comment karenge
+
+                        Step 19.2 : Animated container banayenge
+                        Step 19.3 : BoxDecoration add karenge container me
+                        Step 19.4 : Container ko InkWell me wrap karenge
+                        Step 19.5 : Container ko AnimatedContainer me convert karenge
+                        Step 19.6 : boolean changeButton denge
+                        Step 19.7 : onTap me change button ko true karenge
+                        Step 19.8 : OnTap me logintext ko doneicon me change karenge
+                        Step 19.9 : After animation next page me redirect kar denge using async and await
+                                         
